@@ -605,8 +605,8 @@ body.dark .picker-empty{color:#A79B85}
   .print-sheet .print-sub{font-size:calc(10.5pt * var(--mult, 1));text-align:center;margin:0 0 1mm;font-weight:700}
   .print-sheet .print-sub2{font-size:calc(10pt * var(--mult, 1));text-align:center;margin:0 0 2mm;font-weight:600}
   .print-sheet .sheet-title{font-size:calc(11pt * var(--mult, 1));text-align:center;margin:2mm 0 4mm;font-weight:800;text-transform:uppercase;letter-spacing:.05em}
-  .print-sheet table{width:100%;border-collapse:collapse;table-layout:fixed}
-  .print-sheet th,.print-sheet td{border:1px solid #000;padding:calc(2mm * var(--mult, 1)) calc(1.5mm * var(--mult, 1));font-size:calc(9.5pt * var(--mult, 1));text-align:left;vertical-align:middle;color:#000;background:#fff}
+  .print-sheet table{width:100%;border-collapse:collapse!important;table-layout:fixed;border:1.5px solid #000!important}
+.print-sheet th,.print-sheet td{border:1px solid #000!important;padding:calc(2mm * var(--mult, 1)) calc(1.5mm * var(--mult, 1));font-size:calc(9.5pt * var(--mult, 1));text-align:left;vertical-align:middle;color:#000;background:#fff;-webkit-print-color-adjust:exact;print-color-adjust:exact}
   .print-sheet th{background:#e5e7eb;font-weight:700;text-align:center;font-size:calc(8.5pt * var(--mult, 1))}
   .print-sheet td.center{text-align:center}
   .print-sheet td.num{text-align:center;font-variant-numeric:tabular-nums}
